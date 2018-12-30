@@ -1,5 +1,10 @@
 # circuit-breaker
-Circuit Breaker using Netflix Hystrix
+Circuit Breaker using Netflix libraries.
+Technologies used:
+* Netflix Hystrix
+* Netflix Eureka
+* Netflix Turbine
+* Spring Cloud Stream using Rabbit MQ
 
 ## Rabbit MQ
 * Run rabbit mq server, for example in Mac:
