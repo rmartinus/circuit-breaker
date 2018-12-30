@@ -1,4 +1,4 @@
-package com.circuit.breaker.circuitbreaker;
+package com.circuit.breaker.app.circuitbreakerapp;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.commons.lang.math.RandomUtils;

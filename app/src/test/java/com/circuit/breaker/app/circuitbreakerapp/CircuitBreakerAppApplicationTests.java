@@ -1,4 +1,4 @@
-package com.circuit.breaker.circuitbreaker;
+package com.circuit.breaker.app.circuitbreakerapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CircuitBreakerApplicationTests {
+public class CircuitBreakerAppApplicationTests {
 
 	@Test
 	public void contextLoads() {

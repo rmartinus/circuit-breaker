@@ -1,1 +1,4 @@
 rootProject.name = 'circuit-breaker'
+
+include 'app'
+include 'dashboard'
