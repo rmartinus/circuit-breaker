@@ -10,10 +10,11 @@ buildscript {
 	}
 }
 
+plugins { id "io.spring.dependency-management" version "1.0.5.RELEASE" }
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
 
 group = 'com.circuit.breaker.app'
 version = '0.0.1-SNAPSHOT'
@@ -38,5 +39,4 @@ dependencyManagement {
 	imports {
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
 	}
-	imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
 }
