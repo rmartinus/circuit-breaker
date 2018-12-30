@@ -23,5 +23,5 @@ $ ./rabbitmq-server
 * Go to dashboard directory
 * Run ``./gradlew bootRun``
 * Go to ``http:://localhost:8081/hystrix``
-* Add ``http://localhost:8082/hystrix.stream``
+* Add ``http://localhost:8082/hystrix.stream`` or ``http://localhost:8082/turbine.stream?cluster=APP``
 * You should see Hystrix dashboard
