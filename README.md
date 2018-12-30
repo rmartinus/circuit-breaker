@@ -24,6 +24,12 @@ $ ./rabbitmq-server
 * You may get "world!" or "fallback!" in the response, refresh a few times
 * You should also be able to go to ``http://localhost:8080/actuator/hystrix.stream``
 
+## Turbine
+* Go to app directory
+* Run ``./gradlew bootRun``
+* Go to ``http://localhost:8082/hystrix.stream``
+* You should get pings and data refreshed continuously
+
 ## Dashboard
 * Go to dashboard directory
 * Run ``./gradlew bootRun``
