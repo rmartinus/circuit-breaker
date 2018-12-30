@@ -1,6 +1,10 @@
 # circuit-breaker
 Circuit Breaker using Netflix Hystrix
 
+## Discovery Server
+* Go to discovery-server
+* Run ./gradlew bootRun
+
 ## App
 * Go to app directory
 * Run ./gradlew bootRun
